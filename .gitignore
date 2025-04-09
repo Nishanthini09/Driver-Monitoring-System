@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Model weights or large files
+*.pt
+
+# IDE/project files
+.vscode/
+.idea/
+*.log
+
+# Virtual environment
+venv/
+ENV/
+env/
