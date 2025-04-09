@@ -1,23 +1,32 @@
-# Python cache
+# ========== PYTHON STUFF ==========
 __pycache__/
 *.py[cod]
+*.log
 
-# System files
+# ========== SYSTEM FILES ==========
 .DS_Store
 Thumbs.db
 
-# Environment files
-.env
-
-# Model weights or large files
-*.pt
-
-# IDE/project files
-.vscode/
-.idea/
-*.log
-
-# Virtual environment
+# ========== ENVIRONMENTS ==========
 venv/
 ENV/
 env/
+.venv/
+
+# ========== MODEL WEIGHTS / LARGE FILES ==========
+*.pt
+*.pkl
+*.h5
+*.onnx
+
+# ========== IDE / EDITOR FILES ==========
+.vscode/
+.idea/
+
+# ========== YOLOV5 CACHE ==========
+yolov5/runs/
+yolov5/data/*.cache
+
+# ========== CHECKPOINTS / LANDMARKS ==========
+shape_predictor_68_face_landmarks.dat
+ADAS/
