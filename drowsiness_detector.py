@@ -3,7 +3,7 @@ import numpy as np
 import mediapipe as mp
 
 class DrowsinessDetector:
-    def __init__(self, ear_thresh=0.25, consec_frames=20):
+    def __init__(self, ear_thresh=0.23, consec_frames=20):
         self.EAR_THRESHOLD = ear_thresh
         self.EAR_CONSEC_FRAMES = consec_frames
         self.counter = 0
